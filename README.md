@@ -32,10 +32,17 @@ Select and proceed installation
 2. Place files IISAnyCors.dll and IISAnyCors.pdb in bin folder from previous step
 3. Go to IIS Manager
 4. Choose you site, go to modules
+
 ![IIS Modules.png](<images/IIS Modules.png>)
+
 5. Click `Add Managed Module`
+
 ![Add Managed Module.png](<images/Add Managed Module.png>)
+
 6. In `Type` dropdown list choose `AnyCors.AnyCorsModule`
+
 ![Add Managed Module 2](<images/Add Managed Module 2.png>)
+
 7. Done
+
 ![Work Done.png](<images/Work Done.png>)
