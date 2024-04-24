@@ -28,7 +28,7 @@ Select and proceed installation
 
 ### Installing
 
-1. Create subfolder `Bin` in your application folder. For example, if your application root is C:\Sites\MyBestSite, you need create C:\Sites\MyBestSite\Bin
+1. Create subfolder `Bin` in your application folder. For example, if your application root is C:\Sites\MyBestSite, you need to create C:\Sites\MyBestSite\Bin
 2. Place files IISAnyCors.dll and IISAnyCors.pdb in bin folder from previous step
 3. Go to IIS Manager
 4. Choose you site, go to modules
