@@ -22,6 +22,8 @@ Page `Server Roles`
 
 Web server (IIS) -> Web Server -> Application Development -> .NET Extensibility 4.6
 
+![NET Extensibility 4.6.png](<images/NET Extensibility 4.6.png>)
+
 Select and proceed installation
 
 ### Installing
@@ -29,5 +31,11 @@ Select and proceed installation
 1. Create subfolder `Bin` in your application folder. For example, if your application root is C:\Sites\MyBestSite, you need create C:\Sites\MyBestSite\Bin
 2. Place files IISAnyCors.dll and IISAnyCors.pdb in bin folder from previous step
 3. Go to IIS Manager
-4. Chose you site, go to modules
-5. Click `Add Managed Module`, in `Type` dropdown list choose `AnyCors.AnyCorsModule`
+4. Choose you site, go to modules
+![IIS Modules.png](<images/IIS Modules.png>)
+5. Click `Add Managed Module`
+![Add Managed Module.png](<images/Add Managed Module.png>)
+6. In `Type` dropdown list choose `AnyCors.AnyCorsModule`
+![Add Managed Module 2](<images/Add Managed Module 2.png>)
+7. Done
+![Work Done.png](<images/Work Done.png>)
